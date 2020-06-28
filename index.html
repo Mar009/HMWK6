@@ -15,14 +15,38 @@
 
 <body>
 
-    <!-- Nav bar -->
+<!-- Nav bar -->
+    <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1">Weather Dashboard</span>
+    </nav>
 
-    <!-- Search bar -->
+ <!-- Search bar -->
+    <nav class="navbar navbar-dark bg-dark">
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </nav>
 
-    <!-- space for previous searches -->
+    <div class="container">
+     <!-- space for previous searches -->
+        <div class="card" style="width: 18rem;">
+            <ul class="list-group list-group-flush">
+                <li>test</li>
+
+            </ul>
+        </div>
+
 
 
     <!-- Space for results -->
-    
+        <div class="col-md-10">
+            <div class="contianer" id="forecast">
+                <!-- weather forecast here  -->
+            </div>
+        </div>
+    </div>
+
+
 </body>
 </html>
