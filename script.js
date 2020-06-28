@@ -12,7 +12,21 @@ $("button" ).on("click", function(){
         method: "GET"
 
     }).then (function(response){
-        
+        // make the general card for the info
+        // have name & date 
+            // temp 
+            // humidity % 
+            // Wind Speed 
+            // UV index 
+
+        // make smaller cards for the next 5 days 
+            // have dates 
+            // icon 
+            // temp in F 
+            // Humidty
+
     })
+
+    // Save search history 
 
  });
